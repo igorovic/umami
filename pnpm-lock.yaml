@@ -5,14 +5,14 @@ dependencies:
     specifier: ^4.5.15
     version: registry.npmjs.org/@fontsource/inter@4.5.15
   '@prisma/client':
-    specifier: 4.13.0
-    version: registry.npmjs.org/@prisma/client@4.13.0(prisma@4.13.0)
+    specifier: 4.14.0
+    version: registry.npmjs.org/@prisma/client@4.14.0(prisma@4.13.0)
   '@tanstack/react-query':
     specifier: ^4.16.1
     version: registry.npmjs.org/@tanstack/react-query@4.16.1(react-dom@18.2.0)(react-native@0.71.8)(react@18.2.0)
   '@umami/prisma-client':
     specifier: ^0.2.0
-    version: registry.npmjs.org/@umami/prisma-client@0.2.0(@prisma/client@4.13.0)
+    version: registry.npmjs.org/@umami/prisma-client@0.2.0(@prisma/client@4.14.0)
   '@umami/redis-client':
     specifier: ^0.2.0
     version: registry.npmjs.org/@umami/redis-client@0.2.0
@@ -3296,11 +3296,11 @@ packages:
       '@nodelib/fs.scandir': registry.npmjs.org/@nodelib/fs.scandir@2.1.5
       fastq: registry.npmjs.org/fastq@1.15.0
 
-  registry.npmjs.org/@prisma/client@4.13.0(prisma@4.13.0):
-    resolution: {integrity: sha512-YaiiICcRB2hatxsbnfB66uWXjcRw3jsZdlAVxmx0cFcTc/Ad/sKdHCcWSnqyDX47vAewkjRFwiLwrOUjswVvmA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@prisma/client/-/client-4.13.0.tgz}
-    id: registry.npmjs.org/@prisma/client/4.13.0
+  registry.npmjs.org/@prisma/client@4.14.0(prisma@4.13.0):
+    resolution: {integrity: sha512-MK/XaA2sFdfaOa7I9MjNKz6dxeIEdeZlnpNRoF2w3JuRLlFJLkpp6cD3yaqw2nUUhbrn3Iqe3ZpVV+VuGGil7Q==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@prisma/client/-/client-4.14.0.tgz}
+    id: registry.npmjs.org/@prisma/client/4.14.0
     name: '@prisma/client'
-    version: 4.13.0
+    version: 4.14.0
     engines: {node: '>=14.17'}
     requiresBuild: true
     peerDependencies:
@@ -3309,14 +3309,14 @@ packages:
       prisma:
         optional: true
     dependencies:
-      '@prisma/engines-version': registry.npmjs.org/@prisma/engines-version@4.13.0-50.1e7af066ee9cb95cf3a403c78d9aab3e6b04f37a
+      '@prisma/engines-version': registry.npmjs.org/@prisma/engines-version@4.14.0-67.d9a4c5988f480fa576d43970d5a23641aa77bc9c
       prisma: registry.npmjs.org/prisma@4.13.0
     dev: false
 
-  registry.npmjs.org/@prisma/engines-version@4.13.0-50.1e7af066ee9cb95cf3a403c78d9aab3e6b04f37a:
-    resolution: {integrity: sha512-fsQlbkhPJf08JOzKoyoD9atdUijuGBekwoOPZC3YOygXEml1MTtgXVpnUNchQlRSY82OQ6pSGQ9PxUe4arcSLQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@prisma/engines-version/-/engines-version-4.13.0-50.1e7af066ee9cb95cf3a403c78d9aab3e6b04f37a.tgz}
+  registry.npmjs.org/@prisma/engines-version@4.14.0-67.d9a4c5988f480fa576d43970d5a23641aa77bc9c:
+    resolution: {integrity: sha512-3jum8/YSudeSN0zGW5qkpz+wAN2V/NYCQ+BPjvHYDfWatLWlQkqy99toX0GysDeaUoBIJg1vaz2yKqiA3CFcQw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@prisma/engines-version/-/engines-version-4.14.0-67.d9a4c5988f480fa576d43970d5a23641aa77bc9c.tgz}
     name: '@prisma/engines-version'
-    version: 4.13.0-50.1e7af066ee9cb95cf3a403c78d9aab3e6b04f37a
+    version: 4.14.0-67.d9a4c5988f480fa576d43970d5a23641aa77bc9c
     dev: false
 
   registry.npmjs.org/@prisma/engines@4.13.0:
@@ -5013,7 +5013,7 @@ packages:
       eslint-visitor-keys: registry.npmjs.org/eslint-visitor-keys@3.4.1
     dev: true
 
-  registry.npmjs.org/@umami/prisma-client@0.2.0(@prisma/client@4.13.0):
+  registry.npmjs.org/@umami/prisma-client@0.2.0(@prisma/client@4.14.0):
     resolution: {integrity: sha512-+27dd4DLl8SvbbIYG1mdm6pIZd+UzQI7eZGNjQ9ONeWO0jr+/wiVnPIXUzd8w4R/OoM4ChpI3mBZPqcWa5MAOw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@umami/prisma-client/-/prisma-client-0.2.0.tgz}
     id: registry.npmjs.org/@umami/prisma-client/0.2.0
     name: '@umami/prisma-client'
@@ -5021,7 +5021,7 @@ packages:
     peerDependencies:
       '@prisma/client': ^4.8.0
     dependencies:
-      '@prisma/client': registry.npmjs.org/@prisma/client@4.13.0(prisma@4.13.0)
+      '@prisma/client': registry.npmjs.org/@prisma/client@4.14.0(prisma@4.13.0)
       debug: registry.npmjs.org/debug@4.3.4
     transitivePeerDependencies:
       - supports-color
@@ -6175,6 +6175,7 @@ packages:
       tsv: registry.npmjs.org/tsv@0.2.0
       uuid: registry.npmjs.org/uuid@3.4.0
     dev: false
+    bundledDependencies: []
 
   registry.npmjs.org/client-only@0.0.1:
     resolution: {integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/client-only/-/client-only-0.0.1.tgz}
